@@ -3,10 +3,7 @@
 import os
 import sys
 
-#in case you screw up and transfer the wrong way
-#if sys.argv[1] == 'youraccount@domain.com':
-	#print "Owner should be second argument, not first."
-	#exit()
+#Owner should be second argument, with the account being transferred the first 
 
 os.system("python GAM-3.7/src/gam.py user " + sys.argv[1] + " transfer drive " + sys.argv[2])
 
